@@ -3,7 +3,7 @@ import Todo from "./component/Todo";
 
 const App = () => {
   return (
-    <div className="bg-[#7B00F7] grid py-4 h-screen">
+    <div className=" grid py-4   min-h-screen">
       <Todo />
     </div>
   );
