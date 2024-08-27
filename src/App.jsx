@@ -1,10 +1,10 @@
 import React from "react";
-import Box from "./component/Box";
+import Todo from "./component/Todo";
 
 const App = () => {
   return (
-    <div>
-      <Box />
+    <div className="bg-[#7B00F7] grid py-4 min-h-screen">
+      <Todo />
     </div>
   );
 };
