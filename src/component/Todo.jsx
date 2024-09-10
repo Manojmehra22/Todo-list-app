@@ -72,12 +72,11 @@ const Todo = () => {
         />
         <button
           onClick={add}
-          className="border-none rounded-full bg-orange-600 flex-basis-[150px] h-14 text-white text-lg font-medium cursor-pointer"
+          className="border-none rounded-full bg-orange-600 w-32 flex-basis-[150px] h-14 text-white text-lg font-medium cursor-pointer"
         >
           ADD+
         </button>
       </div>
-
 
       <div className="overflow-y-auto max-h-[300px]">
         {todoList.map((item, index) => {
